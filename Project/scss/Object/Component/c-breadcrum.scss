@@ -1,0 +1,19 @@
+.c-breadcrum {
+    height: 84px;
+    line-height: 70px;
+    .icon-home {
+        font-size: 1.4rem;
+        padding-right: 1px;
+    }
+    .path {
+        font-size: 1.4rem;
+        letter-spacing: -1px;
+    }
+}
+
+.breadcrum-footer {
+    padding: 0 100px;
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid;
+}

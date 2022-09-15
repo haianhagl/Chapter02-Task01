@@ -1,0 +1,28 @@
+.p-header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #a8a8a8;
+
+    .p-header-logo {
+        width: 250px;
+        height: 50px;
+        background: #a8a8a8;
+        color: #fff;
+        text-align: center;
+        line-height: 50px;
+        font-size: 3.075rem;
+    }
+    .p-header-links {
+        display: flex;
+        align-items: center;
+        font-size: 1.4rem;
+        .item-links {
+            padding-left: 32px;
+            font-weight: 600;
+            letter-spacing: -1px;
+        }
+        
+    }
+}
