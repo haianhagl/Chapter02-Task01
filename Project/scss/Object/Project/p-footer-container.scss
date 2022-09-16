@@ -1,27 +1,38 @@
 .p-footer-container {
     .p-footer-link {
-        display: flex; 
+        display: flex;
         justify-content: space-between;
+
         .p-link-item {
             width: 30%;
+
             .p-link-title {
                 font-weight: 900;
                 font-size: 1.4rem;
                 padding: 5px 0;
             }
+
             ul {
                 padding: 5px 0px;
                 border-top: 1px solid #afafaf;
-                i {
-                    font-size: 0.6rem;
-                    padding-right: 4px;
+
+                li {
+                    line-height: 18px;
+                    font-family: $main-fonts;
+                    i {
+                        font-size: 0.5rem;
+                        padding-right: 4px;
+                    }
+
+                    a {
+                        font-size: 1.4rem;
+                    }
+
+                    .fa-link {
+                        font-size: 1rem;
+                    }
                 }
-                a {
-                    font-size: 1.4rem;
-                }
-                .fa-link {
-                    font-size: 1rem;
-                }
+
             }
         }
     }

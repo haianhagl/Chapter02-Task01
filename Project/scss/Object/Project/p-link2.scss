@@ -18,7 +18,7 @@
                 color: #11638a;
             }
             .p-link2-text1 {
-                padding-top: 26px;
+                padding-top: 23px;
                 font-size: 1.5rem;
                 line-height: 20px;
                 font-weight: 600;
@@ -27,7 +27,8 @@
                 }
             }
             .p-link2-text2 {
-                padding: 60px 0;
+                padding-top: 50px;
+                padding-bottom: 70px;
                 .p-link2-text2__title {
                     font-size: 1.5rem;
                     line-height: 20px;
@@ -41,11 +42,11 @@
                     font-size: 1.5rem;
                     line-height: 20px;
                     font-weight: 600;
-                    padding: 15px 0px;
-    
+                    padding-top: 6px;
+                    padding-bottom: 16px;
                 }
                 .p-link2-text2__quote {
-                    padding: 25px 30px;
+                    padding: 18px 30px;
                     border: 1px solid #11638a;
                     border-radius: 5px;
                     font-size: 1.4rem;
@@ -71,7 +72,7 @@
                 display: flex;
                 flex-direction: column;
                 .p-link2-title__item {
-                    padding-bottom: 40px;
+                    padding-bottom: 32px;
                     font-size: 1.5rem;
                     line-height: 20px;
                     font-weight: 600;
@@ -98,6 +99,7 @@
                     }
                 }
                 .p-link2-title2__text4 {
+                    padding: 0;
                     ol {
                         counter-reset: item;
                         li:before {
@@ -110,22 +112,27 @@
                         }
                     }
                     ol.sub-menu li{
-                        padding-left: 40px;
+                        padding-left: 36px;
                         padding-top: 10px;
+                    }
+                    ol.sub-menu li:not(li:first-child) {
+                        padding: 0px 36px;
+                        height: 28px;
                     }
                 }
                 .p-link2-title2__text5 {
+                    padding-top: 16px;
                     .p-link2-title2__text5__line1 {
                         color: #f5989d;
-                        padding-bottom: 10px;
+                        padding-bottom: 6px;
                     }
                     .p-link2-title2__text5__line2 {
                         word-spacing: -2px;
-                        padding-bottom: 10px;
+                        padding-bottom: 15px;
                     }
                     .p-link2-title2__text5__line3 {
                         color: #f5989d;
-                        padding: 25px 30px;
+                        padding: 18px 30px;
                         border: 1px solid #f5989d;
                         border-radius: 5px;
                         font-size: 1.4rem;
@@ -145,10 +152,12 @@
                         font-size: 1.4rem;
                         font-weight: 600;
                         margin-top: 10px;
+                        width: 100%;
+                        text-align: center;
                         tr td:first-child {
-                            background: #ece6e6;
+                            background: #ebebeb;
                         }
-        
+                        
                         th {
                             color: #fff;
                             background: #acd373;
@@ -160,6 +169,7 @@
                             padding: 10px 36px;
                             border: 1px solid #cccccc;
                         }
+                        
                     }
                 }
             }
